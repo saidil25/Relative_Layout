@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ungu">#35155D</color>
+    <color name="ungu1">#5C4B99</color>
+    <color name="ungu2">#A076F9</color>
+    
+    <color name="ungu3">#654ea3</color>
+    <color name="ungu4">#eaafc8</color>
+
+</resources>

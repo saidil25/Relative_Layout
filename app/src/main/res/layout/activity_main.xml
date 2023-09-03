@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bulat"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/bundar">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:src="@drawable/logo"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bundar"
+        android:text="Sign Up"
+        android:id="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/ungu">
+        
+    </TextView>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/logo"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edt_backround"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:text="Enter Username">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/pass"
+        android:layout_below="@id/user"
+        android:layout_centerInParent="true"
+        android:text="Password"
+        android:background="@drawable/edt_backround"
+        android:layout_margin="15dp"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp">
+        
+
+
+    </EditText>
+    
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/pass"
+        android:layout_centerInParent="true"
+        android:text="Login"
+        android:textSize="20dp"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="60dp">
+
+    </Button>
+
+
+
+
+
+
+
+</RelativeLayout>
